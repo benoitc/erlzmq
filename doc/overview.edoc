@@ -69,11 +69,8 @@ Run:
   $ cd /tmp
   $ git clone http://github.com/zeromq/erlzmq.git
   $ cd /tmp/erlzmq
-  $ ./bootstrap
-  $ ./configure --with-zeromq=/usr/local
   $ make
   $ make docs
-  $ make install
 '''
 
 == Issue Tracking ==
@@ -87,13 +84,6 @@ update documentation on the [http://zeromq.github.com/erlzmq] site:
 
 ```
   $ make gitdocs
-'''
-
-The following make target can be used to do a cleanup of all artifacts
-of make and configure:
-
-```
-  $ make clean-bootstrap
 '''
 
 == Architecture ==

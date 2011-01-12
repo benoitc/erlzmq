@@ -6,11 +6,8 @@ Building
 
     $ git clone http://github.com/zeromq/erlzmq.git
     $ cd erlzmq
-    $ ./bootstrap
-    $ ./configure --with-zeromq=/usr/local
     $ make
     $ make docs
-    $ make install
 
 Documentation
     See http://zeromq.github.com/erlzmq for full documentation.
